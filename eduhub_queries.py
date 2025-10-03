@@ -19,8 +19,10 @@ from pymongo.errors import DuplicateKeyError, WriteError
 import pandas as pd
 
 # ======= CONFIG =======
-MONGO_URI = "mongodb://localhost:27017/"
+
+MONGO_URI = "mongodb+srv://< eduhub_db  >:< 5d9W71bLyTJMEwNN  >@cluster0.bkcxczk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DB_NAME = "eduhub_db"
+
 client = MongoClient(MONGO_URI)
 db = client[DB_NAME]
 
