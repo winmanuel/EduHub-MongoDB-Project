@@ -124,24 +124,4 @@ python src/eduhub_queries.py --init
 
 * `assignmentId`, `courseId`, `title`, `description`, `dueDate`, `maxScore`
 
-**submissions**
-
-* `submissionId`, `assignmentId`, `studentId`, `submittedAt`, `content`, `score`, `feedback`
-
-Refer to `data/schema_validation.json` for full JSON Schema validators.
-
----
-
-## Testing and Evaluation checklist
-
-* [ ] Public GitHub repo created and populated
-* [ ] `README.md` includes setup & overview (this file)
-* [ ] Notebook executed with visible outputs
-* [ ] Sample data files included and valid JSON
-* [ ] Presentation included in `docs/`
-* [ ] `performance_analysis.md` documents `explain()` outputs and timings
-* [ ] ZIP archive prepared: `LastName_FirstName_MongoDB_Project.zip`
-
----
-
 
