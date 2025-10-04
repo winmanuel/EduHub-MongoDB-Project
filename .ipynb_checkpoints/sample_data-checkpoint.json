@@ -1,0 +1,50 @@
+{
+  "users": [
+    {
+      "userId": "stu_aa11bb22",
+      "email": "stu_aa11bb22@example.com",
+      "firstName": "Alex",
+      "lastName": "Smith",
+      "role": "student",
+      "dateJoined": "2025-03-01T12:00:00Z",
+      "profile": {"bio":"Interested in data science","avatar":null,"skills":["python","mongodb"]},
+      "isActive": true
+    },
+    {
+      "userId": "ins_cc33dd44",
+      "email": "ins_cc33dd44@example.com",
+      "firstName": "Maria",
+      "lastName": "Kovács",
+      "role": "instructor",
+      "dateJoined": "2024-08-15T12:00:00Z",
+      "profile": {"bio":"Data instructor","avatar":null,"skills":["ml","statistics"]},
+      "isActive": true
+    }
+  ],
+  "courses": [
+    {
+      "courseId": "course_1122aa",
+      "title": "Data Science Basics 1",
+      "description": "Intro to Data Science",
+      "instructorId": "ins_cc33dd44",
+      "category": "Data Science",
+      "level": "beginner",
+      "duration": 10,
+      "price": 49.99,
+      "tags": ["python","ml"],
+      "createdAt": "2025-01-10T12:00:00Z",
+      "updatedAt": "2025-01-10T12:00:00Z",
+      "isPublished": true
+    }
+  ],
+  "enrollments": [
+    {
+      "enrollmentId": "enr_9988",
+      "courseId": "course_1122aa",
+      "studentId": "stu_aa11bb22",
+      "enrolledAt": "2025-02-01T12:00:00Z",
+      "progress": 25,
+      "completed": false
+    }
+  ]
+}
